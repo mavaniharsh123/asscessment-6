@@ -1,0 +1,90 @@
+body{
+    background-image: url(sharadesert.jpg);
+}
+
+.con2{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 542px;
+    float: right;
+    margin-top: -87px;
+    margin-right: 91px;
+}
+
+.p{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+.sin{
+    color: white;
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+.sin1{
+    font-weight: 600;
+    font-size: 83px;
+    color: white;
+}
+.sin2{
+    font-size: 20px;
+    color: white;
+}
+button{
+    height: 59px;
+    width: 184px;
+    border: none;
+    background-color: white;
+    border-radius: 73px;
+}
+.sin3{
+    margin-top: 80px;
+}
+.m{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.cos{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    gap: 40px;
+    position: absolute;
+    top: 170px;
+    right: 140px;
+    text-align: center;
+    font-size: 26px;
+    color: blanchedalmond
+}
+.tan{
+    height: 450px;
+    width: 400px;
+    zoom: 60%;
+    border-radius: 15px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.tan:hover {
+    transform: translateY(-30px);
+}
+.tan1{
+    background-image: url(pic-1.png);
+}
+.tan2{
+    background-image: url(pic-2.png);
+}
+.tan3{
+    background-image: url(pic-3.png);
+}
+.tan4{
+    background-image: url(pic-4.png);
+}
+
+@media screen and (min-width:360px) and (max-width:560px){
+    
+}
